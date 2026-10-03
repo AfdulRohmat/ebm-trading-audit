@@ -1,0 +1,59 @@
+{
+  "version": "v3_frozen_spy_predictions_atr_runner",
+  "models": [
+    "ebm"
+  ],
+  "variants": [
+    "fixed60_stop2",
+    "fixed60_stop1",
+    "runner_stop1"
+  ],
+  "threshold_atr": 0.05,
+  "trail_activation_r": 1.0,
+  "trail_distance_r": 1.0,
+  "trail_clock_minutes": 30,
+  "exit_on_opposite": true,
+  "max_trades_per_day": 1,
+  "overnight": false,
+  "stress_multipliers": [
+    1,
+    2
+  ],
+  "stress_selection": "fixed_base_entries_and_opposite_signals",
+  "capitals": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000
+  ],
+  "risks": [
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05
+  ],
+  "seed": 260926,
+  "minimum_positive_years": 5,
+  "scope": "post_hoc_exit_ablation_on_previously_seen_rolling_model_OOS",
+  "random_replicates": 2000,
+  "random_seed": 261004,
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 261005,
+  "bootstrap_block_sessions": 5,
+  "source_spec": {
+    "name": "SPY_PROXY",
+    "contract": 1,
+    "min_lot": 0,
+    "lot_step_assumed": 0,
+    "commission_side_lot": 0,
+    "slippage_bps_side": 0.25,
+    "margins": [
+      0.0
+    ],
+    "spread_mode": "synthetic_fractional",
+    "broker_feasible": false
+  }
+}

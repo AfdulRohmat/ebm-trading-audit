@@ -1,0 +1,72 @@
+[
+  {
+    "year": 2014,
+    "trades": 36,
+    "longs": 34,
+    "shorts": 2,
+    "eligible_days": 252,
+    "assignment_attempts": 2823,
+    "accepted_assignments": 2000,
+    "direction_control_informative": true
+  },
+  {
+    "year": 2015,
+    "trades": 29,
+    "longs": 18,
+    "shorts": 11,
+    "eligible_days": 252,
+    "assignment_attempts": 2161,
+    "accepted_assignments": 2000,
+    "direction_control_informative": true
+  },
+  {
+    "year": 2016,
+    "trades": 105,
+    "longs": 72,
+    "shorts": 33,
+    "eligible_days": 252,
+    "assignment_attempts": 2284,
+    "accepted_assignments": 2000,
+    "direction_control_informative": true
+  },
+  {
+    "year": 2017,
+    "trades": 5,
+    "longs": 5,
+    "shorts": 0,
+    "eligible_days": 251,
+    "assignment_attempts": 2070,
+    "accepted_assignments": 2000,
+    "direction_control_informative": false
+  },
+  {
+    "year": 2018,
+    "trades": 6,
+    "longs": 6,
+    "shorts": 0,
+    "eligible_days": 251,
+    "assignment_attempts": 2110,
+    "accepted_assignments": 2000,
+    "direction_control_informative": false
+  },
+  {
+    "year": 2019,
+    "trades": 95,
+    "longs": 63,
+    "shorts": 32,
+    "eligible_days": 252,
+    "assignment_attempts": 3026,
+    "accepted_assignments": 2000,
+    "direction_control_informative": true
+  },
+  {
+    "year": 2020,
+    "trades": 86,
+    "longs": 37,
+    "shorts": 49,
+    "eligible_days": 253,
+    "assignment_attempts": 2447,
+    "accepted_assignments": 2000,
+    "direction_control_informative": true
+  }
+]

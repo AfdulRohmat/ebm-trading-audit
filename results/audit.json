@@ -1,0 +1,53 @@
+{
+  "prediction_max_abs_error": 0.0,
+  "events": 17534,
+  "selected": 362,
+  "sessions": 1763,
+  "all_candidate_paths_python_cpp_parity": true,
+  "all_primary_trades_and_accounts_match_v3": true,
+  "preserved_source_files": 253,
+  "source_hashes": {
+    "prepared_m1": "0931048cbbbac93c123c941fdb429111e9588188cd9ee5e8d320b4d6c2510bf8",
+    "predictions": "6b824099182193a2d610759343392840e286d063bda5438e49c11a6fec186797",
+    "buy_hold_accounts.csv": "bf414c5ccef71ede22a93f2ea9040d46408ed66936edf6e77489956e3936411a",
+    "buy_hold_daily_1000.csv": "45357427bd0d6a1e4dee715271c3ecdf858c06ac11e04b305837a50053d70f3b",
+    "shape_grid.csv": "2e8ccb99fdc634a73e4b02bce83d3045952a67ec9ef399d77d4f157bbeb3ae6b",
+    "calibration.csv": "d26d006e743a66c2bb2be98574306e14d20ce33b5ff912e5281daf7db8645977",
+    "forecast_metrics.csv": "c86f081cea35e38f684d58fdacdbb42af06d9d82693b69cd5a179114ffcc8dfb",
+    "importance.csv": "9e5756513abffd3afdd90ea3b28929e59072b8db0c9087e2ab881e7323cdec85",
+    "historical_summary.csv": "85d885f442d8995a47623fb07d54fecc8ae505f99c0689a52dc9cbe638823a17",
+    "historical_annual.csv": "c7dcee2c0ba37ad93499980c6d14c838ef8034b37bfcbdca5dac976b2398a5bc",
+    "historical_monthly.csv": "9965dcc3bcd3806aad2b23d2946633bdc43f8694c51417873b48931cd1bb2c2e"
+  },
+  "random_controls": {
+    "replicates_per_control": 2000,
+    "seed": 261004,
+    "independent_cache_path_checks": 252,
+    "cache_entries_per_arm": 20399,
+    "summary_scenarios": 360,
+    "candidate_accounts_reconciled": true,
+    "insolvency_absent_in_all_individual_cached_paths": true
+  },
+  "bootstrap": [
+    {
+      "draws": 2000,
+      "sessions": 1763,
+      "block_sessions": 5,
+      "seed": 261005,
+      "includes_flat_days": true,
+      "future_forecast": false
+    },
+    {
+      "draws": 2000,
+      "sessions": 1763,
+      "block_sessions": 5,
+      "seed": 261005,
+      "includes_flat_days": true,
+      "future_forecast": false
+    }
+  ],
+  "retrained": false,
+  "pristine_oos": false,
+  "broker_validated": false,
+  "contract_sha256": "73b87418082094fab703f4e44844711270458f9ed5007619e26a08cbe12e1371"
+}

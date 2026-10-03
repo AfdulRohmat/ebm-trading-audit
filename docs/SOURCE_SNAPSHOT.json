@@ -1,0 +1,56 @@
+{
+  "runner.py": {
+    "source": "src/intraday_ml/v3_runner.py",
+    "sha256": "016fc08d4c6ad2c8b743481f2540d5edded8fcab1331231dfefb3d3c64fc0192",
+    "functions": "whole file"
+  },
+  "execution.py": {
+    "source": "src/intraday_ml/v5_execution.py",
+    "sha256": "e84ad388dc423dc9f7dfcba669c98d756de5d18994a01755450c451fe7d11b2a",
+    "functions": "whole file"
+  },
+  "data.py": {
+    "source": "src/intraday_ml/data.py",
+    "sha256": "f77657da7a3110d6d0f7ce70a8c33729f7f1e261670dbda96d090cf88a02a7e9",
+    "functions": [
+      "checksum",
+      "make_features",
+      "make_events",
+      "write_json"
+    ]
+  },
+  "trading.py": {
+    "source": "src/intraday_ml/trading.py",
+    "sha256": "49e2a81a85dd1fa89ce3c8fbb08968930941ad55ae7c0663f19386a52bfa3c89",
+    "functions": [
+      "slippage",
+      "commission_unit",
+      "directions",
+      "metrics"
+    ]
+  },
+  "validation.py": {
+    "source": "src/intraday_ml/v3_run.py",
+    "sha256": "6b8144756441cfe2a8fb010cebba2f600b945bb35258f51fe57aebcf209ee43f",
+    "functions": [
+      "audit_trade"
+    ]
+  },
+  "controls.py": {
+    "source": "src/intraday_ml/v5_run.py",
+    "sha256": "aa550c3426919cad722be199352928f36defe72f1bfe3bdaa316410fb17ed44d",
+    "functions": [
+      "compare_execution",
+      "eligible_paths",
+      "random_plans",
+      "controls"
+    ]
+  },
+  "execution.cpp": {
+    "source": "src/intraday_ml/v5_ann.cpp",
+    "sha256": "1ea2e11e33dd1e4e3eefe0fbb5a29dba1be9967c65ed92d23fea82070ca4f48b",
+    "functions": [
+      "trade_path (ANN algorithm excluded)"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+# Versions used for the frozen replay and figure generation (Python 3.12).
+numpy==2.5.3
+pandas==2.3.3
+pyarrow==25.0.1
+matplotlib==3.11.2
+exchange-calendars==4.13.2
+pytest==9.1.1
+# Optional training recipe; published results replay portable frozen models.
+interpret-core==0.7.8
+scikit-learn==1.7.2
